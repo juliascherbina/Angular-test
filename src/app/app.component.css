@@ -1,0 +1,20 @@
+.sec {
+    margin-right: 20px;
+    width: 50px;
+    padding: 5px;
+    background-color: rgb(202, 194, 194);
+}
+div {
+    display: flex;
+    height: 20px;
+
+}
+#first.easy{
+    background-color: red;
+}
+#first.medium,#second.medium{
+    background-color: yellow;
+}
+#first.hard,#second.hard,#third.hard{
+    background-color: green;
+}
