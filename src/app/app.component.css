@@ -18,3 +18,7 @@ div {
 #first.hard,#second.hard,#third.hard{
     background-color: green;
 }
+
+.short{
+    background-color: red;
+}

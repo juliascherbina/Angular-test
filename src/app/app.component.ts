@@ -12,6 +12,11 @@ export class AppComponent {
 
 
   onPasswordChange() {
+    if(this.password.length < 8)
+    {
+      this.strenght="short";
+      return;
+    }
     let hasDigits = this.hasDigits();
     let hasLetters = this.hasLetters();
     let hasSymbolls = this.hasSymbolls();
